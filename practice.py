@@ -27,10 +27,11 @@ print("average of class marks is",df["total_marks"].mean())
 print("the average of class accoreding to marks is ")
 print("Maths average: ",df["math"].mean())
 print("Science average is ",df["science"].mean())
-print("Social science average is ",df["english"].mean())
-print("Social science average is ",df["hindi"].mean())
+print("english average is ",df["english"].mean())
+print("hindi average is ",df["hindi"].mean())
 
 plt.show()
+
 df['percentage']=(df['total_marks']/80)*100
 print(df)
 print("top scorers are ")
